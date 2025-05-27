@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #06AED5;
+    --secondary-color: #4DA167;
+    --accent1-color: #086788;
+    --accent2-color: #19381F;
+    --accent3-color: #FAF37A;
+    --heading-font: "Bebas Neue";
+    --boody-font: "Inter", ; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--accent2-color);
+    color: white:
+}
+
+body {
+    font-family: var(--body-font);
+    color: white;
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--accent3-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
