@@ -4,8 +4,9 @@
     --accent1-color: #086788;
     --accent2-color: #19381F;
     --accent3-color: #FAF37A;
+    --accent4-color: black;
     --heading-font: "Bebas Neue";
-    --boody-font: "Inter", ; 
+    --body-font: "Inter"; 
 }
 
 * {
@@ -16,12 +17,12 @@
 
 header {
     background-color: var(--accent2-color);
-    color: white:
+    color: var(--primary-color);
 }
 
 body {
     font-family: var(--body-font);
-    color: white;
+    color: var(--accent4-color);
 }
 
 header, main, footer {
@@ -31,7 +32,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--accent3-color);
+    color: var(--accent1-color);
 }
 
 nav, p, section, article {
@@ -41,4 +42,48 @@ nav, p, section, article {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.mainnav a {
+    text-decoration: none;
+    color: var(--accent3-color)
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero article {
+    position: absolute;
+    top: 80px;
+    margin: 35px;
+    background-color: var(--accent1-color);
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.hero article img {
+    float: right;
+    margin: 30px 30px;
+    width: 125px;
+}
+
+.hero p {
+    color: white;
 }
